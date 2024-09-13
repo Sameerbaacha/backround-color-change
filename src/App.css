@@ -1,0 +1,122 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.btn-red {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-red:hover {
+  background-color: darkred;
+  border: 2px solid white;
+
+}
+.btn-blue{
+  background-color: rgb(3, 3, 255);
+  color: white;
+  margin: 8px;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-blue:hover {
+  background-color: rgb(0, 0, 139);
+  border: 2px solid white;
+
+}
+.btn-green{
+  background-color: green;
+  color: white;
+  margin: 8px;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-green:hover {
+  background-color: rgb(2, 68, 2);
+  border: 2px solid white;
+
+}
+.btn-yellow{
+  background-color: rgb(180, 180, 8);
+  color: white;
+  margin: 8px;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-yellow:hover {
+  background-color: rgb(145, 145, 7);
+  border: 2px solid white;
+
+  
+}
+.btn-pink{
+  background-color: palevioletred;
+  color: white;
+  margin: 8px;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-pink:hover {
+  background-color: rgb(170, 76, 107);
+  border: 2px solid white;
+
+}
